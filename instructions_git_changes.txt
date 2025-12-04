@@ -1,0 +1,7 @@
+1. Open terminal and navigate to your Desktop by typing cd ~/Desktop
+2. Find your website folder by typing ls to see all the files on your Desktop
+3. You should see something like personalwebsite - navigate there with cd personalwebsite
+4. Within this folder there should be something that ends in .git - you can check with ls -la, which lists all the files and extensions in the current directory
+5. Once you are in the correct folder, you can type git status to see if changes need to be pushed to Github
+6.  Then to commit them all type git add . followed by git commit -m "any message here"
+7. Finally push with git push
